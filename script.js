@@ -25,5 +25,6 @@ function factorialize(n) {
   for (let i = 1; i <= n; n++) {
     multy *= i;
   }
+  return multy;
 }
 console.log(factorialize(5));
