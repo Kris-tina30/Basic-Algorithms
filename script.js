@@ -17,12 +17,12 @@
 //Declare a function factorialize(n) that takes an integer n as param
 //declare variable multy = 1 that is start with 1, becouse if we * 0 = 0
 //use forloop start:1 ; end: <= n
-//multiply n
-//call function
+//multiply numbers
+//return multyply
 
 function factorialize(n) {
   let multy = 1;
-  for (let i = 1; i <= n; n++) {
+  for (let i = 1; i <= n; i++) {
     multy *= i;
   }
   return multy;
